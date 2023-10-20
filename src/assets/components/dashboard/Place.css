@@ -1,0 +1,26 @@
+.friend-contnainer{
+    margin-top: 10%;
+    margin-left: 18%;
+  z-index: 1;
+}
+
+.place-delete{
+  padding: 7%;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  background-color: #c29d59;
+}
+.place-delete:hover{
+  background-color: black;
+}
+.place-edit{
+  padding: 10%;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(103, 165, 144);
+  border: none;
+}
+.place-edit:hover{
+  background-color: black;
+}

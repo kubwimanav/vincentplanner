@@ -1,0 +1,24 @@
+.toure-button{
+    
+   display: flex;
+   
+}
+.tourebuttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.toure-edit{
+    background-color: rgb(103, 165, 144);
+    color: #fbfafa;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+}
+.toure-delete{
+    background-color: #c29d59;
+    padding: 5px;
+    border: none;
+    color: aliceblue;
+    border-radius: 4px;
+}
