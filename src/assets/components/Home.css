@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 .paragraph {
     background-image: url(../images/pixelbb.jpg);
     background-size: cover;
@@ -37,7 +40,7 @@
   }
   .logo-image {
     margin-left: 20px;
-  } */
+  } 
   .search-image {
     width: 40px;
     height: 40px;
@@ -127,7 +130,7 @@
     background-color: #f0f0f0;
     padding: 10px; 
     width: 75%;
-    padding: 30px;
+    padding: 30px; 
     margin-left: 10rem;
    transform: translatey(-40px);
     border-right: 5px solid #c29d59;
@@ -254,3 +257,183 @@ p {
   .homec{
     margin-left: 10%;
   }
+  @media (max-width: 768px) {
+    .home-icons{
+    
+      font-size: 30px;
+      
+  } 
+
+    .paragraph {
+      padding-top: 100px;
+       width: 100vh;
+      height: 50vh; 
+      gap: 20px;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    background-color:#fff;
+    width: 75%;
+    padding: 20px;
+    margin-left: 90px;
+    transform: translateY(-8px);
+  }
+
+    .slider-nav {
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .holiday {
+        margin-top: 10%; /* Adjust margin for better alignment on small screens */
+        margin-left: 10%; /* Adjust margin for better alignment on small screens */
+    }
+
+    .holida {
+      font-size: 40px;
+        margin-left: 15%; /* Adjust margin for better alignment on small screens */
+        width: 30%; /* Make it wider on small screens */
+    }
+
+    .hom {
+        margin-left: 10%; /* Adjust margin for better alignment on small screens */
+        width: 50%; /* Make it wider on small screens */
+    }
+
+    .home-parag {
+        width: 90%; /* Make it wider on small screens */
+        margin-left: 5%; /* Adjust margin for better alignment on small screens */
+    }
+
+    .data-filters {
+        width: 100%; /* Make it full width on small screens */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .find-button {
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .homecard {
+        margin-left: 5%; /* Adjust margin for better alignment on small screens */
+    }
+
+    .Hometouristsse {
+        padding-left: 5%; /* Adjust padding for better alignment on small screens */
+        padding-right: 5%; /* Adjust padding for better alignment on small screens */
+    }
+
+    .card {
+        width: 100%; /* Make cards full width on small screens */
+    }
+    
+}
+@media (max-width: 480px) {
+  .home-icons{
+  
+    font-size: 28px;
+    
+} 
+
+  .paragraph {
+    padding-top: 100px;
+    
+    height: 50vh; 
+    gap: 20px;
+}
+.logo-image {
+  margin-left:0px;
+} 
+.logo {
+  display: flex;
+  background-color:#fff;
+  width: 95%;
+  justify-content: center;
+  padding: 0px;
+  margin-left: 10px;
+  transform: translateY(-8px);
+}
+.research-btn {
+  background-color: #c29d59;
+  color: #fff;
+  padding: 2px 4px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 0px;
+}
+.slider-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.search-image {
+  width: 20px;
+  height: 20px;
+  
+  border: 2px solid black;
+  border-radius: 40%;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.bar {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+  margin-right: 0px;
+}
+.holiday {
+  font-size: 30px;
+  margin-top: 10%; /* Adjust margin for better alignment on small screens */
+  margin-left: 10%; /* Adjust margin for better alignment on small screens */
+}
+
+.holida {
+font-size: 20px;
+  margin-left: 15%; 
+  width: 22%; 
+}
+.hom {
+  margin-left: 10%; 
+  width: 40%; 
+}
+.data-filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #f0f0f0;
+  padding: 10px; 
+  width: 75%;
+  padding: 0px; 
+  margin-left: 0px;
+ transform: translatey(-40px);
+  border-right: 5px solid #c29d59;
+  border-left: 5px solid #c29d59;
+}
+.filter-select {
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #4d4c4c;
+}
+.Hometouristsse{
+  display: grid;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  grid-template-columns: repeat(1,1fr);
+  gap: 10px;
+}    
+
+}

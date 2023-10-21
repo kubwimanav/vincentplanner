@@ -14,8 +14,8 @@ import Search from "./search";
 {modal && <Search />}
           <div className="page1">
             <div className="location">
-             <p className="email"> <FaEnvelope className="p"/> hollidayplanners@gmail.com</p>
-            <p className="email1"><BsFillTelephoneFill className="p"/> +250789466837</p>   
+             <p className="email"> <FaEnvelope className="per"/> hollidayplanners@gmail.com</p>
+            <p className="email1"><BsFillTelephoneFill className="per"/> +250789466837</p>   
             </div>
             <div className="home-icons">
               <BiLogoFacebook className="FaFacebook"/>
@@ -28,7 +28,7 @@ import Search from "./search";
          <img src={logo}  alt="logo-image" />
         </div>
           <div className="slider-nav">
-            <button className="research-btn">Reserve</button>
+            <button className="research-btn">Login</button>
                <BiSearch className="search-image"/>
             <div className="hamburger-menu" 
              onClick={() => {

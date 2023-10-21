@@ -1,9 +1,4 @@
 
-*{
-  margin: 0px;
-  padding: 0px;
-}
-
 .homee{
   position: fixed;
   z-index: 8888;
@@ -42,7 +37,7 @@
     font-size: 20px;
     grid-template-columns: 1fr 1fr;
 }
-.p{
+.per{
     font-size: 25px;
     color: #c29d59;
 }
@@ -121,4 +116,96 @@
   
   .hamburger-menu.active .bar:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -6px);
+  }
+ 
+
+  @media  (max-width: 767px) {
+   
+    .page1{
+      padding-left: 60px;
+      height: 90px;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      background-color: #2b2b2b;
+  }
+  
+ 
+  .location{
+    
+    display: grid;
+    grid-gap: 15px;
+    font-size: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+  
+    .email, .email1 {
+      border-right: none;
+      font-size: 25px;
+    }
+  
+  
+  
+    .p {
+      font-size: 20px;
+    }
+
+    .logo {
+      width: 35%;
+      padding: 10px;
+     
+    }
+   
+  }
+  
+  /* Styles for medium screens (768px to 1023px) */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .page1 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    
+  
+    .email, .email1 {
+      font-size: 18px;
+    }
+  }
+  
+  /* Styles for large screens (1024px and above) */
+  @media screen and (min-width: 1024px) {
+    .page1 {
+      padding-left: 160px;
+      padding-right: 160px;
+    }
+  
+    .email, .email1 {
+      font-size: 24px;
+    }
+  
+   
+  
+    .p {
+      font-size: 25px;
+    }
+
+  }
+  @media  (max-width: 480px) {
+    .page1 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .location{
+      display: flex;
+      flex-direction: column;
+    }
+    .email, .email1 {
+      font-size: 18px;
+    }
+  
+   
+  
+    .per {
+      font-size: 20px;
+    }
+  
   }

@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 .feet{
     background-color:#333 ;
 }
@@ -113,6 +120,14 @@
     display: flex;
     gap: 4px;
  }
+
  .copy1 p{
   border-left: 1px solid #fff;
  }
+ @media (max-width:480px) {
+
+    .feet{
+    width: 100vh;
+ }
+ 
+} 

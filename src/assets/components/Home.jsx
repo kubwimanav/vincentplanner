@@ -62,7 +62,7 @@ function Home () {
         <div className="data-filters">
         <div>
           <SlLocationPin className="icon" />
-          <input type="text" placeholder="WHERE TO?" class="filter-input" />
+          <input type="text" placeholder="Where To?" class="filter-input" />
         </div>
         <div>
           < BiCalendar className="icon" />
